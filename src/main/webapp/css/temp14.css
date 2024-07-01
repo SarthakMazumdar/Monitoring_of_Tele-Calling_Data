@@ -1,0 +1,176 @@
+@charset "ISO-8859-1";
+
+*, *::before, *::after {
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica, Arial, sans-serif;
+	box-sizing: border-box
+}
+
+header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: #eee;
+	margin: 15px;
+	padding: 15px 25px;
+	border: 1px solid #333;
+	border-radius: 10px
+}
+
+h1 {
+	font-weight: normal
+}
+
+.container-slim {
+	width: 80%;
+	margin: auto;
+	border: 1px solid #333;
+	border-radius: 10px;
+	padding-right: 5px
+}
+
+.container {
+	width: 90%;
+	margin: auto
+}
+
+.form-content {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between
+}
+
+.form-grp {
+	margin: 5px
+}
+
+label {
+	font-size: 15px
+}
+
+.custom-input {
+	margin-left: 10px;
+}
+
+#data-table-filter {
+	padding: 1px
+}
+
+.btn {
+	cursor: pointer;
+	color: #fff;
+	padding: 4px 7px;
+	font-size: 13px;
+	border-radius: 7px;
+	border: none
+}
+
+.btn:hover {
+	opacity: 0.8
+}
+
+#filter-submit, #filter-reset, #page-close {
+	width: max-content;
+	background-color: #333;
+}
+
+.table-title {
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 3px
+}
+
+strong {
+	color: #8a288f
+}
+
+.empty-res {
+	text-align: center;
+	margin: 10px
+}
+
+.table-wrapper {
+	max-height: 55vh;
+	border: 1px solid #333;
+	overflow-y: auto
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse
+}
+
+td, th {
+	text-align: center;
+	padding: 7px;
+	font-size: 13px
+}
+
+.pos-sticky {
+	position: sticky;
+	top: 0
+}
+
+.z-zero {
+	z-index: 0
+}
+
+.z-one {
+	z-index: 1
+}
+
+.main-table-head {
+	background-color: #4285f4;
+	color: #fff
+}
+
+#main-table tbody:nth-child(even) {
+	background-color: #e3f2fd
+}
+
+#main-table tbody:nth-child(odd) {
+	background-color: #b3d9ff
+}
+
+.exp-btn {
+	background-color: #757575
+}
+
+.down-btn {
+	background-color: #4caf50
+}
+
+.no-pad {
+	padding: 0
+}
+
+.inner-table {
+	border-top: 3px solid #333;
+	border-bottom: 3px solid #333
+}
+
+.inner-table-head {
+	background-color: #2e7d32;
+	color: #fff
+}
+
+.inner-table-body tr:nth-child(even) {
+	background-color: #81c784
+}
+
+.inner-table-body tr:nth-child(odd) {
+	background-color: #c8e6c9
+}
+
+#sum-form {
+	display: flex;
+	align-items: center;
+	justify-content: center
+}
+
+.sum-btn {
+	background-color: #388e3c;
+	margin: 15px
+}
